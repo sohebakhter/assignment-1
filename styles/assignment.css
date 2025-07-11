@@ -133,6 +133,7 @@ img {
 .contact input[type="text"],
 .contact input[type=email] {
   height: 70px;
+  border: 1px solid;
   border-radius: 10px;
   background-color: white;
   display: block;
@@ -144,6 +145,7 @@ img {
 
 .contact textarea {
   /* height: 70px; */
+  border: 1px solid;
   border-radius: 10px;
   background-color: white;
   display: block;
@@ -223,6 +225,7 @@ input[type="button"]:hover {
 
 /* card styles */
 .card-title {
+  margin-top: 137px;
   text-align: center;
   font-size: 42px;
   font-weight: bold;
@@ -245,4 +248,5 @@ input[type="button"]:hover {
 
 .card-last {
   display: flex;
+  gap: 12px;
 }
