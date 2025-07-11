@@ -1,65 +1,114 @@
-.raleway-normal{
+.raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
 
-.primary-bg{
+.primary-bg {
   background-image: url(../images/assets/Hero-bg.png);
-  
+
 }
 
-nav{
+nav {
   display: flex;
-  align-items:center;
-  justify-content:space-between;
+  align-items: center;
+  justify-content: space-between;
   margin: 0px 150px;
 }
-.nav-title{
+
+.nav-title {
   font-weight: 900;
   font-size: 34px;
   color: rgba(78, 71, 255, 1);
 }
-.btn-primary{
-  background-color:rgba(78, 71, 255, 1) ;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight:bold;
-    padding: 12px 36px;
-    border-radius: 10px;
-    border: none;
+
+.btn-primary {
+  background-color: rgba(78, 71, 255, 1);
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
 }
-.banner{
+
+.banner {
   /* max-width: 900px; */
-  
+
 }
-.banner-content{
+
+.banner-content {
   font-size: 65px;
   font-weight: bold;
   text-align: center;
   /* gap: 37px; */
 }
-.banner-title{
+
+.banner-title {
   width: 900px;
   text-align: center;
   margin-left: 500px;
 }
 
-.action{
+/* main styles */
+
+
+.action {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 150px;
 }
-.action-title{
-    font-size: 42px;
-    font-weight: bold;
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
 }
-.action-subtitle{
+
+.action-subtitle {
   font-size: 24px;
   color: rgba(37, 36, 50, 0.5);
   width: 500px;
 }
-img{
+
+img {
   border-radius: 50px;
+}
+
+/* user styles */
+
+.secondary-bg {
+  background-color: rgba(78, 71, 255, 0.1);
+  /* margin: 0 500px; */
+  max-width: ;
+}
+
+.user {
+  border-radius: 20px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 140px;
+  text-align: center;
+}
+
+.user-title {
+  /* text-align: center; */
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 0;
+
+}
+
+.user-content {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.user-rate {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(78, 71, 255, 1);
+  margin-bottom: 0;
 }
