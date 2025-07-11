@@ -112,3 +112,49 @@ img {
   color: rgba(78, 71, 255, 1);
   margin-bottom: 0;
 }
+/* form contact styles */
+.contact{
+  margin: 150px 250px;
+  display: flex;
+  gap: 100px;
+}
+.contact-column{
+  width: 50%;
+}
+
+.contact-title{
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type=email]{
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 19px;
+    /* border: none; */
+}
+.contact textarea{
+  /* height: 70px; */
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 19px;
+    /* border: none; */
+}
+.contact input[type="button"]{
+ background-color: rgba(78, 71, 255, 1);
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  width: 93%;
+}
