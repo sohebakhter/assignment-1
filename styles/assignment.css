@@ -31,6 +31,7 @@ nav {
   padding: 12px 36px;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .banner {
@@ -203,4 +204,16 @@ footer {
 .footer-items a {
   text-decoration: none;
   color: #8987A1;
+}
+/* applyed hover  */
+.footer-items a:hover{
+  background-color: bisque; 
+}
+.btn-primary:hover{
+  background-color:cadetblue;
+  
+}
+input[type="button"]:hover{
+  background-color:cadetblue ;
+  cursor: pointer;
 }
