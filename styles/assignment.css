@@ -6,7 +6,7 @@
 }
 
 .primary-bg{
-  background-image: url(../Assets/Hero-bg.png);
+  background-image: url(../images/assets/Hero-bg.png);
   
 }
 
@@ -31,13 +31,35 @@ nav{
     border: none;
 }
 .banner{
-  max-width: 900px;
+  /* max-width: 900px; */
   
 }
 .banner-content{
   font-size: 65px;
   font-weight: bold;
-  /* text-align: center; */
-  gap: 37px;
-  
+  text-align: center;
+  /* gap: 37px; */
+}
+.banner-title{
+  width: 900px;
+  text-align: center;
+  margin-left: 500px;
+}
+
+.action{
+  display: flex;
+  justify-content: space-around;
+  margin: 150px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-subtitle{
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  width: 500px;
+}
+img{
+  border-radius: 50px;
 }
