@@ -158,3 +158,41 @@ img {
   border: none;
   width: 93%;
 }
+
+/* footer styles */
+
+footer{
+  margin: 100px 450px;
+}
+
+
+.frame{
+  text-align: center;
+    margin: 0 auto;
+  width: 50%;
+  padding: 20px;
+
+}
+.frame h2{
+  font-size: 100px;
+  font-weight: 900;
+  color:rgba(78, 71, 255, 1) ;
+  margin-bottom: 5px;
+   
+}
+.frame p{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0; 
+  color: #8987A1;
+}
+ .footer-items{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+ }
+ .footer-items a{
+  text-decoration: none;
+  color: #8987A1;
+ }
