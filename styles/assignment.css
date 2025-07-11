@@ -205,15 +205,44 @@ footer {
   text-decoration: none;
   color: #8987A1;
 }
+
 /* applyed hover  */
-.footer-items a:hover{
-  background-color: bisque; 
+.footer-items a:hover {
+  background-color: bisque;
 }
-.btn-primary:hover{
-  background-color:cadetblue;
-  
+
+.btn-primary:hover {
+  background-color: cadetblue;
+
 }
-input[type="button"]:hover{
-  background-color:cadetblue ;
+
+input[type="button"]:hover {
+  background-color: cadetblue;
   cursor: pointer;
+}
+
+/* card styles */
+.card-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  margin-left: 300px;
+  gap: 20px;
+
+
+}
+
+.card {
+  border: 1px solid rgb(233, 231, 231);
+  border-radius: 10px;
+  width: 366px;
+  padding: 24px;
+}
+
+.card-last {
+  display: flex;
 }
