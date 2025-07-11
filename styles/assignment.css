@@ -112,44 +112,48 @@ img {
   color: rgba(78, 71, 255, 1);
   margin-bottom: 0;
 }
+
 /* form contact styles */
-.contact{
+.contact {
   margin: 150px 250px;
   display: flex;
   gap: 100px;
 }
-.contact-column{
+
+.contact-column {
   width: 50%;
 }
 
-.contact-title{
+.contact-title {
   font-size: 97px;
   font-weight: bold;
 }
 
 .contact input[type="text"],
-.contact input[type=email]{
-    height: 70px;
-    border-radius: 10px;
-    background-color: white;
-    display: block;
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 19px;
-    /* border: none; */
+.contact input[type=email] {
+  height: 70px;
+  border-radius: 10px;
+  background-color: white;
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 19px;
+  /* border: none; */
 }
-.contact textarea{
+
+.contact textarea {
   /* height: 70px; */
-    border-radius: 10px;
-    background-color: white;
-    display: block;
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 19px;
-    /* border: none; */
+  border-radius: 10px;
+  background-color: white;
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 19px;
+  /* border: none; */
 }
-.contact input[type="button"]{
- background-color: rgba(78, 71, 255, 1);
+
+.contact input[type="button"] {
+  background-color: rgba(78, 71, 255, 1);
   font-size: 16px;
   color: #FFFFFF;
   font-weight: bold;
@@ -161,38 +165,42 @@ img {
 
 /* footer styles */
 
-footer{
+footer {
   margin: 100px 450px;
 }
 
 
-.frame{
+.frame {
   text-align: center;
-    margin: 0 auto;
+  margin: 0 auto;
   width: 50%;
   padding: 20px;
 
 }
-.frame h2{
+
+.frame h2 {
   font-size: 100px;
   font-weight: 900;
-  color:rgba(78, 71, 255, 1) ;
+  color: rgba(78, 71, 255, 1);
   margin-bottom: 5px;
-   
+
 }
-.frame p{
+
+.frame p {
   text-align: center;
   margin: 0 auto;
-  margin-top: 0; 
+  margin-top: 0;
   color: #8987A1;
 }
- .footer-items{
+
+.footer-items {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 10px 0;
- }
- .footer-items a{
+}
+
+.footer-items a {
   text-decoration: none;
   color: #8987A1;
- }
+}
