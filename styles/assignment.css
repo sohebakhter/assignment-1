@@ -250,3 +250,24 @@ input[type="button"]:hover {
   display: flex;
   gap: 12px;
 }
+ /* focus section */
+ 
+ 
+ /* .focus-container{ */
+ .focus-container{
+  display: flex;
+  flex-direction: column;
+  
+ }
+ .focus-text{
+   text-align: center;
+   margin: 70px 300px 60px 300px;
+   font-size: 50px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   /* padding: 70px 150px; */
+  /* margin: 70px 300px 560px 300px; */
+ }
+ .focus-img{
+  margin:0 auto;
+ }
